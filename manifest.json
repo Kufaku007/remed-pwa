@@ -1,0 +1,29 @@
+{
+  "name": "My PWA",
+  "short_name": "PWA Demo",
+  "description": "A simple Progressive Web App example",
+  "start_url": "/pwa-app.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/fd.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/ff.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/fg.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
